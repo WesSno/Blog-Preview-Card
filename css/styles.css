@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: "Figtree", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow);
+  padding: 2em;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--white);
+  padding: 1.3em;
+  border-radius: 20px;
+  border: 1px solid var(--gray-950);
+  max-width: 320px;
+  margin-bottom: 1em;
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.type {
+  margin-bottom: 1.2em;
+}
+
+.type h2 {
+  font-size: 1em;
+  background-color: var(--yellow);
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+  width: 31%;
+  margin-bottom: 1em;
+}
+
+.type p {
+  color: var(--gray-950);
+  font-weight: 500;
+}
+
+.info {
+  margin-bottom: 1.1em;
+}
+
+.info h1 {
+  font-size: 1.3em;
+  font-weight: 800;
+  margin-bottom: 0.8em;
+}
+
+.info h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.info p {
+  color: var(--gray-500);
+  line-height: 1.5em;
+}
+
+.blogger {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.blogger img {
+  width: 30px;
+}
+
+.blogger .name {
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
