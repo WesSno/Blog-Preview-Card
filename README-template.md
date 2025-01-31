@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/WesSno/Blog-Preview-Card)
+- Live Site URL: [Netlify](https://wes-blog-preview-card.netlify.app/)
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Kofi Baafi Kwatia](https://www.your-site.com)
 - Frontend Mentor - [@WesSno](https://www.frontendmentor.io/profile/WesSno)
